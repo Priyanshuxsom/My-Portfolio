@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priyanshuxsom|Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=SF+Pro+Display:wght@400;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+    <script src="/zero-gravity.js" defer></script>
+</head>
+<body class="ios-theme">
+    <!-- Ambient iOS Wallpaper Background Blurs & Zero-G Canvas -->
+    <div class="ios-background">
+        <canvas id="zeroGCanvas"></canvas>
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- Floating iOS Glass Navigation (Dynamic Island Style) -->
+    <header class="ios-glass-header">
+        <div class="header-container">
+            <a href="#home" class="ios-logo">
+                <span class="logo-icon"></span>
+                <span class="logo-text">Priyanshu Namdev</span>
+            </a>
+
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle Navigation">
+                <span class="hamburger"></span>
+            </label>
+
+            <nav class="nav-menu">
+                <a href="#home" class="nav-link active">
+                    <svg class="nav-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                    Home
+                </a>
+                <a href="#about" class="nav-link">
+                    <svg class="nav-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                    About Me
+                </a>
+                <a href="#certificates" class="nav-link">
+                    <svg class="nav-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+                    Certificates
+                    <span class="nav-badge-count">4</span>
+                </a>
+                <a href="#contact" class="nav-link">
+                    <svg class="nav-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                    Contact Me
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Right-aligned Floating iOS Dynamic Status Badge -->
+    <div class="floating-text-badge">
+        <span class="status-indicator"></span>
+        <div class="name-container">
+            <span class="phrase phrase-1">I am Priyanshu Namdev</span>
+            <span class="phrase phrase-2">I am Priyanshuxsom</span>
+        </div>
+    </div>
+
+    <!-- Main Content Grid -->
+    <main class="ios-container">
+        <!-- HOME / HERO WIDGET -->
+        <section id="home" class="portfolio-section">
+            <div class="ios-widget hero-widget">
+                <div class="hero-content">
+                    <div class="greeting-subtitle">Hello, Welcome to my space</div>
+                    <h1 class="hero-title">
+                        <div class="typewriter-container">
+                            <span id="typewriter-text" class="highlight-name">Priyanshu</span><span class="typewriter-cursor">|</span>
+                        </div>
+                        <span class="hero-role">BS Applied AI &amp; Data Science @ IIT Jodhpur ('30)</span>
+                    </h1>
+<p className="text-lg text-gray-300 max-w-2xl mx-auto leading-relaxed">
+  Transforming complex data into <span className="text-white font-medium">actionable business insights</span> today, while leveraging <span className="text-blue-400 font-medium">Machine Learning</span> and <span className="text-purple-400 font-medium">Generative AI</span> to build intelligent, scalable solutions.
+</p>
+                    <!-- iOS Social & Creative Hub -->
+                    <div class="social-hub-container">
+                        <div class="social-hub-header">
+                            <span class="social-hub-title">CONNECT ACROSS PLATFORMS</span>
+                            <span class="social-hub-badge">6 Channels</span>
+                        </div>
+                        <div class="social-grid">
+                            <!-- LinkedIn -->
+                            <a href="https://in.linkedin.com/in/priyanshuxsom" target="_blank" rel="noopener" class="social-card social-linkedin">
+                                <div class="social-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+                                </div>
+                                <div class="social-info">
+                                    <span class="social-name">LinkedIn</span>
+                                    <span class="social-handle">@priyanshuxsom</span>
+                                </div>
+                                <svg class="social-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+                            </a>
+
+                            <!-- YouTube -->
+                            <a href="https://youtube.com/@priyanshuxsom" target="_blank" rel="noopener" class="social-card social-youtube">
+                                <div class="social-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                                </div>
+                                <div class="social-info">
+                                    <span class="social-name">YouTube</span>
+                                    <span class="social-handle">@priyanshuxsom</span>
+                                </div>
+                                <svg class="social-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+                            </a>
+
+                            <!-- Instagram -->
+                            <a href="https://instagram.com/priyanshuxsom" target="_blank" rel="noopener" class="social-card social-instagram">
+                                <div class="social-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                                </div>
+                                <div class="social-info">
+                                    <span class="social-name">Instagram</span>
+                                    <span class="social-handle">@priyanshuxsom</span>
+                                </div>
+                                <svg class="social-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+                            </a>
+
+                            <!-- GitHub -->
+                            <a href="https://github.com/priyanshuxsom" target="_blank" rel="noopener" class="social-card social-github">
+                                <div class="social-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+                                </div>
+                                <div class="social-info">
+                                    <span class="social-name">GitHub</span>
+                                    <span class="social-handle">@priyanshuxsom</span>
+                                </div>
+                                <svg class="social-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+                            </a>
+
+                            <!-- X (Twitter) -->
+                            <a href="https://x.com/priyanshuxsom" target="_blank" rel="noopener" class="social-card social-x">
+                                <div class="social-icon">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                                </div>
+                                <div class="social-info">
+                                    <span class="social-name">X (Twitter)</span>
+                                    <span class="social-handle">@priyanshuxsom</span>
+                                </div>
+                                <svg class="social-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+                            </a>
+
+                            <!-- Email Direct -->
+                            <a href="mailto:priyanshuxsom@gmail.com" class="social-card social-email">
+                                <div class="social-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                                </div>
+                                <div class="social-info">
+                                    <span class="social-name">Direct Email</span>
+                                    <span class="social-handle">priyanshuxsom@gmail.com</span>
+                                </div>
+                                <svg class="social-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT ME BENTO GRID SECTION -->
+        <section id="about" class="portfolio-section">
+            <div class="bento-grid">
+                <!-- Main Bio Widget -->
+                <div class="ios-widget bento-main">
+                    <div class="widget-header-bar">
+                        <span class="ios-pill-tag">ABOUT ME</span>
+                    </div>
+                    <h2 class="widget-title">Priyanshu Namdev <span class="alias">(PriyanshuXsom)</span></h2>
+                    <p class="about-description">
+                        Currently pursuing a <strong>BS in Applied AI and Data Science at IIT Jodhpur</strong> (Indian Institute of Technology Jodhpur, Graduation ^2030). I blend mathematical rigor in Machine Learning with Generative AI engineering to build practical solutions for real-world problems. My focus is on <strong>AI-driven web applications, healthcare AI, and data analytics</strong>, leveraging Python, JavaScript, and modern frameworks to create seamless user experiences. I am passionate about <strong>open-source contributions</strong> and actively engage in <strong>community-driven AI projects</strong>.
+                    </p>
+                    <div class="ios-metrics-row">
+                        <div class="metric-card">
+                            <span class="metric-num">IIT Jodhpur</span>
+                            <span class="metric-label">BS Applied AI &amp; DS ('30)</span>
+                        </div>
+                        <div class="metric-card">
+                            <span class="metric-num">4 Certs</span>
+                            <span class="metric-label">Verified Accreditations</span>
+                        </div>
+                        <div class="metric-card">
+                            <span class="metric-num">100%</span>
+                            <span class="metric-label">Precision Craft</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skills Widget -->
+                <div class="ios-widget bento-skills">
+                    <div class="widget-header-bar">
+                        <span class="ios-pill-tag">STACK &amp; ACADEMICS</span>
+                    </div>
+                    <div class="skills-cloud">
+                        <span class="ios-chip highlight-chip">BS @ IIT Jodhpur ('30)</span>
+                        <span class="ios-chip">Applied AI</span>
+                        <span class="ios-chip">Data Science</span>
+                        <span class="ios-chip">Python &amp; ML</span>
+                        <span class="ios-chip">Full-Stack Dev</span>
+                        <span class="ios-chip">Healthcare AI</span>
+                        <span class="ios-chip">UI/UX Design</span>
+                        <span class="ios-chip">JavaScript / TS</span>
+                        <span class="ios-chip">iOS Glassmorphism</span>
+                        <span class="ios-chip">Data Analytics</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CERTIFICATES & CREDENTIALS SECTION -->
+        <section id="certificates" class="portfolio-section">
+            <div class="ios-widget certificates-widget">
+                <div class="widget-header-bar">
+                    <div class="pill-group">
+                        <span class="ios-pill-tag">VERIFIED CREDENTIALS</span>
+                        <span class="cert-count-badge">
+                            <span class="badge-dot"></span>
+                            <strong id="total-certs-count">4 Official Certifications</strong>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="cert-section-intro">
+                    <h2 class="widget-title">Certifications &amp; Accreditations</h2>
+                    <p class="cert-subtitle">
+                        Industry-recognized certifications in Applied AI, Healthcare Management AI, Data Science with Python, and Data Analytics accredited by SAIM&amp;S, LetsUpgrade, NSDC, ITM, GDG MAD, and Deloitte.
+                    </p>
+                </div>
+
+                <!-- Carousel Header Controls -->
+                <div class="carousel-controls-bar">
+                    <div class="carousel-status">
+                        <span class="live-scroll-indicator">
+                            <span class="pulse-ring"></span>
+                            <span id="scroll-status-text">Auto-Scrolling Active</span>
+                        </span>
+                    </div>
+                    <div class="carousel-buttons">
+                        <button id="cert-prev-btn" class="cert-ctrl-btn" aria-label="Scroll Previous">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg>
+                        </button>
+                        <button id="cert-toggle-autoscroll" class="cert-ctrl-btn toggle-play" title="Toggle Auto-Scroll">
+                            <svg class="icon-pause" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+                            <svg class="icon-play" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="display:none;"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                        </button>
+                        <button id="cert-next-btn" class="cert-ctrl-btn" aria-label="Scroll Next">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Auto-Scrolling Carousel Wrapper & Track -->
+                <div class="cert-carousel-wrapper" id="cert-carousel-wrapper">
+                    <div class="cert-carousel-track" id="cert-carousel-track">
+                        <!-- Cards populated dynamically via JS for seamless infinite looping -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT ME WIDGET SECTION -->
+        <section id="contact" class="portfolio-section">
+            <div class="ios-widget contact-widget">
+                <div class="widget-header-bar">
+                    <span class="ios-pill-tag">GET IN TOUCH</span>
+                </div>
+                <h2 class="widget-title">Let's Connect</h2>
+                <p class="contact-desc">Have an idea or want to collaborate? Send a direct message below.</p>
+
+                <form class="ios-form" onsubmit="event.preventDefault(); alert('✨ Message delivered! Thanks for reaching out.');">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" placeholder="Priyanshu Som" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="priyanshuxsom@example.com" required />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="4" placeholder="Share your project vision..." required></textarea>
+                    </div>
+                    <button type="submit" class="ios-action-btn">
+                        <span>Send Message</span>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- iOS Dock/Footer Footer -->
+    <footer class="ios-footer">
+        <div class="footer-container">
+            <div class="footer-block">
+                <span class="footer-label">LOCATION</span>
+                <span class="footer-value">Global / Remote</span>
+            </div>
+            <div class="footer-block center">
+                <span class="footer-label">DESIGN SYSTEM</span>
+                <span class="footer-value">iOS 18 Liquid Glass</span>
+            </div>
+            <div class="footer-block right">
+                <span class="footer-label">STATUS</span>
+                <span class="footer-value">Available 2026</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- CERTIFICATE DETAIL POPUP MODAL -->
+    <div id="cert-modal" class="cert-modal-backdrop" aria-hidden="true">
+        <div class="cert-modal-container">
+            <button id="cert-modal-close" class="cert-modal-close-btn" aria-label="Close Modal">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+            </button>
+
+            <div class="cert-modal-content">
+                <div class="cert-modal-preview">
+                    <img id="modal-cert-img" src="" alt="Certificate Preview" class="modal-cert-image">
+                    <div class="modal-actions-row">
+                        <a id="modal-verify-link" href="#" target="_blank" rel="noopener" class="ios-action-btn modal-verify-btn">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                            <span>Verify Official Credential</span>
+                        </a>
+                        <button id="modal-copy-id-btn" class="modal-secondary-btn">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>
+                            <span id="copy-btn-text">Copy ID</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="cert-modal-details">
+                    <div class="modal-badge-row">
+                        <span id="modal-cert-status" class="modal-status-badge">✓ Officially Issued &amp; Verified</span>
+                        <span id="modal-cert-date" class="modal-date-badge">Issued: 28 July 2026</span>
+                    </div>
+
+                    <h3 id="modal-cert-title" class="modal-title">Certificate Title</h3>
+                    
+                    <div class="modal-meta-grid">
+                        <div class="meta-item">
+                            <span class="meta-label">RECIPIENT NAME</span>
+                            <strong id="modal-cert-name" class="meta-value">Priyanshu Namdev</strong>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">ISSUING AUTHORITY</span>
+                            <strong id="modal-cert-issuer" class="meta-value">LetsUpgrade</strong>
+                        </div>
+                        <div class="meta-item full-width">
+                            <span class="meta-label">CREDENTIAL / CERTIFICATE NO.</span>
+                            <code id="modal-cert-id" class="meta-code">6a0eeff56259824b2cbc0948</code>
+                        </div>
+                        <div class="meta-item full-width">
+                            <span class="meta-label">ACCREDITATION &amp; PARTNERS</span>
+                            <span id="modal-cert-partners" class="meta-text">NSDC, ITM Edutech Training, GDG MAD</span>
+                        </div>
+                    </div>
+
+                    <div class="modal-skills-section">
+                        <span class="modal-section-heading">SKILLS &amp; MODULES VALIDATED</span>
+                        <div id="modal-cert-skills" class="skills-cloud">
+                            <!-- Populated dynamically -->
+                        </div>
+                    </div>
+
+                    <div class="modal-desc-box">
+                        <span class="modal-section-heading">OVERVIEW &amp; PRACTICAL OUTCOMES</span>
+                        <p id="modal-cert-desc" class="modal-desc-text">
+                            Certificate description details...
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // --- TYPEWRITER HERO ANIMATION ---
+            const words = ["Priyanshu", "Sampanncorex"];
+            let wordIndex = 0;
+            let charIndex = words[0].length;
+            let isDeleting = true;
+            const textElement = document.getElementById('typewriter-text');
+            
+            const typeSpeed = 110;
+            const deleteSpeed = 70;
+            const pauseDelay = 2200;
+
+            function typeLoop() {
+                const currentWord = words[wordIndex];
+
+                if (isDeleting) {
+                    charIndex--;
+                    textElement.textContent = currentWord.substring(0, charIndex);
+                } else {
+                    charIndex++;
+                    textElement.textContent = currentWord.substring(0, charIndex);
+                }
+
+                let nextTimeout = isDeleting ? deleteSpeed : typeSpeed;
+
+                if (!isDeleting && charIndex === currentWord.length) {
+                    nextTimeout = pauseDelay;
+                    isDeleting = true;
+                } else if (isDeleting && charIndex === 0) {
+                    isDeleting = false;
+                    wordIndex = (wordIndex + 1) % words.length;
+                    nextTimeout = 350;
+                }
+
+                setTimeout(typeLoop, nextTimeout);
+            }
+
+            setTimeout(typeLoop, pauseDelay);
+
+            // --- CERTIFICATIONS DATA STORE ---
+            const CERTIFICATES = [
+                {
+                    id: 'cert-1',
+                    title: 'Python for Data Science (Basic)',
+                    recipient: 'Priyanshu Namdev',
+                    issuer: 'LetsUpgrade',
+                    issuerShort: 'LetsUpgrade • NSDC',
+                    partners: 'NSDC (National Skill Development Corporation), ITM Edutech Training Pvt. Ltd., GDG MAD',
+                    date: '28 July 2026',
+                    certNo: '6a0eeff56259824b2cbc0948',
+                    verifyUrl: 'https://www.letsupgrade.in/verify',
+                    img: '/assets/cert1.svg',
+                    skills: ['Python', 'Data Science', 'Data Analytics', 'Algorithmic Thinking', 'Data Structures', 'Problem Solving'],
+                    desc: 'Comprehensive accreditation covering Python programming foundations, data structures, algorithmic problem-solving logic, and essential data analytics tools for automated insights.',
+                    tags: ['Python', 'Data Science', 'Analytics']
+                },
+                {
+                    id: 'cert-2',
+                    title: 'Data Science with Python Bootcamp',
+                    recipient: 'Priyanshu Namdev',
+                    issuer: 'LetsUpgrade',
+                    issuerShort: 'LetsUpgrade • ITM • GDG',
+                    partners: 'NSDC, ITM Edutech Training Pvt. Ltd., GDG MAD',
+                    date: '28 July 2026',
+                    certNo: '6a54c6c616fc862be3aab86b',
+                    verifyUrl: 'https://www.letsupgrade.in/verify',
+                    img: '/assets/cert2.svg',
+                    skills: ['Data Science', 'Machine Learning', 'Pandas', 'Exploratory Data Analysis (EDA)', 'Model Evaluation', 'Regression & Classification'],
+                    desc: 'Practical data science bootcamp validating skills in building EDA pipelines in Pandas, training regression/classification ML models, and translating business analytics into technical solutions.',
+                    tags: ['Data Science', 'Machine Learning', 'Pandas']
+                },
+                {
+                    id: 'cert-3',
+                    title: 'Data Analytics Job Simulation',
+                    recipient: 'Priyanshu Namdev',
+                    issuer: 'Deloitte (via Forage)',
+                    issuerShort: 'Deloitte • Forage',
+                    partners: 'Deloitte Global / Australia & Forage Simulation',
+                    date: 'July 27th, 2026',
+                    certNo: '6a677b76a9bb5a2e1e0c7aef',
+                    userCode: '6a677a266908a2b6467a0da4',
+                    verifyUrl: 'https://www.theforage.com/simulations/deloitte/data-analytics',
+                    img: '/assets/cert3.svg',
+                    skills: ['Data Analysis', 'Forensic Technology', 'Business Telemetry', 'Data Visualisation', 'Audit Analytics', 'Executive Reporting'],
+                    desc: 'Completed practical Deloitte job simulation tasks including forensic technology investigation, dataset auditing, complex analytical visualization, and executive business reporting.',
+                    tags: ['Deloitte', 'Forensic Tech', 'Analytics']
+                },
+                {
+                    id: 'cert-4',
+                    title: 'Smart Hospitals: Leveraging AI for Effective Healthcare Management',
+                    recipient: 'Priyanshu Namdev',
+                    issuer: 'Sri Aurobindo Institute of Management & Science',
+                    issuerShort: 'SAIM&S • Dept. of Hospital Admin',
+                    partners: 'Department of Hospital Administration, IIHMR Bangalore & SAIT',
+                    date: 'November 7th, 2025',
+                    certNo: 'SAIMS/HA/AI-HOSPITAL/2025/107',
+                    verifyUrl: '#',
+                    img: '/assets/cert4.svg',
+                    skills: ['Applied AI', 'Healthcare AI', 'Smart Hospitals', 'Hospital Administration', 'Predictive Analytics'],
+                    desc: 'One-day national workshop certification on integrating Artificial Intelligence for smart hospital systems, healthcare management, patient telemetry, and hospital administrative workflows.',
+                    tags: ['Healthcare AI', 'Applied AI', 'SAIM&S']
+                }
+            ];
+
+            // Render Total Count
+            const countEl = document.getElementById('total-certs-count');
+            if (countEl) {
+                countEl.textContent = `${CERTIFICATES.length} Verified Certifications`;
+            }
+
+            // Render Carousel Track
+            const track = document.getElementById('cert-carousel-track');
+            if (track) {
+                // Populate cards twice for infinite seamless scrolling loop
+                const doubledCerts = [...CERTIFICATES, ...CERTIFICATES];
+                track.innerHTML = doubledCerts.map((cert, index) => `
+                    <div class="cert-card" data-cert-index="${index % CERTIFICATES.length}">
+                        <div class="cert-card-image-wrap">
+                            <img src="${cert.img}" alt="${cert.title}" class="cert-thumb" loading="lazy">
+                            <span class="cert-verified-pill">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                                Verified
+                            </span>
+                            <div class="cert-overlay">
+                                <span class="view-cert-btn">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                                    Click for Full Details
+                                </span>
+                            </div>
+                        </div>
+                        <div class="cert-card-info">
+                            <div class="cert-issuer-row">
+                                <span class="cert-issuer-name">${cert.issuerShort}</span>
+                                <span class="cert-date">${cert.date}</span>
+                            </div>
+                            <h3 class="cert-card-title">${cert.title}</h3>
+                            <p class="cert-card-desc">${cert.desc}</p>
+                            <div class="cert-tags">
+                                ${cert.tags.map(tag => `<span class="cert-tag">${tag}</span>`).join('')}
+                            </div>
+                        </div>
+                    </div>
+                `).join('');
+            }
+
+            // --- AUTO-SCROLL CAROUSEL ENGINE ---
+            const wrapper = document.getElementById('cert-carousel-wrapper');
+            let isAutoScrolling = true;
+            let scrollSpeed = 0.8;
+            let animationFrameId = null;
+
+            function autoScrollStep() {
+                if (wrapper && isAutoScrolling) {
+                    wrapper.scrollLeft += scrollSpeed;
+                    
+                    // Reset scroll for infinite loop
+                    if (wrapper.scrollLeft >= wrapper.scrollWidth / 2) {
+                        wrapper.scrollLeft = 0;
+                    }
+                }
+                animationFrameId = requestAnimationFrame(autoScrollStep);
+            }
+
+            // Start auto scroll
+            animationFrameId = requestAnimationFrame(autoScrollStep);
+
+            // Pause on hover / touch
+            if (wrapper) {
+                wrapper.addEventListener('mouseenter', () => { isAutoScrolling = false; updateScrollStatus(false); });
+                wrapper.addEventListener('mouseleave', () => { isAutoScrolling = true; updateScrollStatus(true); });
+                wrapper.addEventListener('touchstart', () => { isAutoScrolling = false; updateScrollStatus(false); }, { passive: true });
+            }
+
+            // Scroll Buttons Logic
+            const prevBtn = document.getElementById('cert-prev-btn');
+            const nextBtn = document.getElementById('cert-next-btn');
+            const toggleBtn = document.getElementById('cert-toggle-autoscroll');
+            const statusText = document.getElementById('scroll-status-text');
+
+            function updateScrollStatus(active) {
+                if (statusText) {
+                    statusText.textContent = active ? 'Auto-Scrolling Active' : 'Scrolling Paused';
+                }
+                if (toggleBtn) {
+                    const iconPause = toggleBtn.querySelector('.icon-pause');
+                    const iconPlay = toggleBtn.querySelector('.icon-play');
+                    if (iconPause && iconPlay) {
+                        iconPause.style.display = active ? 'inline-block' : 'none';
+                        iconPlay.style.display = active ? 'none' : 'inline-block';
+                    }
+                }
+            }
+
+            if (toggleBtn) {
+                toggleBtn.addEventListener('click', () => {
+                    isAutoScrolling = !isAutoScrolling;
+                    updateScrollStatus(isAutoScrolling);
+                });
+            }
+
+            if (prevBtn && wrapper) {
+                prevBtn.addEventListener('click', () => {
+                    isAutoScrolling = false;
+                    updateScrollStatus(false);
+                    wrapper.scrollBy({ left: -340, behavior: 'smooth' });
+                });
+            }
+
+            if (nextBtn && wrapper) {
+                nextBtn.addEventListener('click', () => {
+                    isAutoScrolling = false;
+                    updateScrollStatus(false);
+                    wrapper.scrollBy({ left: 340, behavior: 'smooth' });
+                });
+            }
+
+            // --- CERTIFICATE DETAIL MODAL INTERACTION ---
+            const modal = document.getElementById('cert-modal');
+            const closeBtn = document.getElementById('cert-modal-close');
+            const copyBtn = document.getElementById('modal-copy-id-btn');
+            const copyText = document.getElementById('copy-btn-text');
+
+            function openCertModal(certIndex) {
+                const cert = CERTIFICATES[certIndex];
+                if (!cert || !modal) return;
+
+                document.getElementById('modal-cert-img').src = cert.img;
+                document.getElementById('modal-cert-img').alt = cert.title;
+                document.getElementById('modal-cert-title').textContent = cert.title;
+                document.getElementById('modal-cert-name').textContent = cert.recipient;
+                document.getElementById('modal-cert-issuer').textContent = cert.issuer;
+                document.getElementById('modal-cert-id').textContent = cert.certNo;
+                document.getElementById('modal-cert-partners').textContent = cert.partners;
+                document.getElementById('modal-cert-date').textContent = `Issued: ${cert.date}`;
+                document.getElementById('modal-cert-desc').textContent = cert.desc;
+                
+                const verifyLink = document.getElementById('modal-verify-link');
+                if (verifyLink) {
+                    verifyLink.href = cert.verifyUrl;
+                }
+
+                const skillsContainer = document.getElementById('modal-cert-skills');
+                if (skillsContainer) {
+                    skillsContainer.innerHTML = cert.skills.map(skill => `<span class="ios-chip">${skill}</span>`).join('');
+                }
+
+                if (copyText) copyText.textContent = 'Copy ID';
+
+                modal.classList.add('active');
+                modal.setAttribute('aria-hidden', 'false');
+                document.body.style.overflow = 'hidden'; // Lock background scroll
+            }
+
+            function closeCertModal() {
+                if (!modal) return;
+                modal.classList.remove('active');
+                modal.setAttribute('aria-hidden', 'true');
+                document.body.style.overflow = '';
+            }
+
+            // Attach Click Listeners on Cards
+            if (track) {
+                track.addEventListener('click', (e) => {
+                    const card = e.target.closest('.cert-card');
+                    if (card) {
+                        const index = parseInt(card.getAttribute('data-cert-index'), 10);
+                        if (!isNaN(index)) {
+                            openCertModal(index);
+                        }
+                    }
+                });
+            }
+
+            if (closeBtn) closeBtn.addEventListener('click', closeCertModal);
+
+            if (modal) {
+                modal.addEventListener('click', (e) => {
+                    if (e.target === modal) closeCertModal();
+                });
+            }
+
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape' && modal && modal.classList.contains('active')) {
+                    closeCertModal();
+                }
+            });
+
+            // Copy ID Button
+            if (copyBtn) {
+                copyBtn.addEventListener('click', () => {
+                    const certId = document.getElementById('modal-cert-id')?.textContent;
+                    if (certId) {
+                        navigator.clipboard.writeText(certId).then(() => {
+                            if (copyText) copyText.textContent = '✓ Copied!';
+                            setTimeout(() => { if (copyText) copyText.textContent = 'Copy ID'; }, 2000);
+                        }).catch(() => {
+                            if (copyText) copyText.textContent = 'Failed';
+                        });
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>
+
+
