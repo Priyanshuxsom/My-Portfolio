@@ -1,7 +1,9 @@
 {
-  "name": "my-portfolio",
+  "name": "priyanshuxsom-portfolio",
   "private": true,
   "version": "1.0.0",
+  "description": "Personal Portfolio and Showcase for Priyanshu Namdev (IIT Jodhpur)",
+  "author": "Priyanshu Namdev <priyanshuxsom@gmail.com>",
   "type": "module",
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",

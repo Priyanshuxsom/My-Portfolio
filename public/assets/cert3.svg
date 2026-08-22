@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 850" width="1200" height="850">
+  <defs>
+    <filter id="shadow3" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1200" height="850" fill="#FFFFFF"/>
+  <rect x="50" y="50" width="1100" height="750" fill="#FFFFFF" rx="8" filter="url(#shadow3)"/>
+
+  <!-- Deloitte Logo -->
+  <g transform="translate(100, 110)">
+    <text x="0" y="50" font-family="'Plus Jakarta Sans', -apple-system, sans-serif" font-weight="900" font-size="64" fill="#000000">Deloitte<tspan fill="#86BC25">.</tspan></text>
+  </g>
+
+  <!-- Divider Line -->
+  <line x1="100" y1="210" x2="800" y2="210" stroke="#E2E8F0" stroke-width="2"/>
+
+  <!-- Main Student & Program Title -->
+  <g transform="translate(100, 290)">
+    <text x="0" y="0" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="48" fill="#1A202C">Priyanshu Namdev</text>
+    <text x="0" y="65" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="44" fill="#1A202C">Data Analytics Job Simulation</text>
+    
+    <text x="0" y="140" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="28" fill="#4A5568">Certificate of Completion</text>
+    <text x="0" y="180" font-family="'Plus Jakarta Sans', sans-serif" font-weight="500" font-size="22" fill="#718096">July 27th, 2026</text>
+  </g>
+
+  <!-- Horizontal Section Line -->
+  <line x1="100" y1="520" x2="1100" y2="520" stroke="#EDF2F7" stroke-width="1.5"/>
+
+  <!-- Details Description -->
+  <g transform="translate(100, 560)">
+    <text x="0" y="0" font-family="'Plus Jakarta Sans', sans-serif" font-weight="500" font-size="16" fill="#4A5568">Over the period of July 2026, Priyanshu Namdev has completed practical tasks in:</text>
+    <text x="0" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="16" fill="#2D3748">• Data analysis</text>
+    <text x="0" y="56" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="16" fill="#2D3748">• Forensic technology</text>
+  </g>
+
+  <!-- Signatory Section -->
+  <g transform="translate(850, 560)">
+    <!-- Simulated Signature -->
+    <path d="M 10 20 Q 30 -10, 50 30 T 90 10 T 130 25" fill="none" stroke="#2B6CB0" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="0" y="60" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="18" fill="#1A202C">Tina McCreery</text>
+    <text x="0" y="82" font-family="'Plus Jakarta Sans', sans-serif" font-weight="500" font-size="14" fill="#718096">Chief Human Resources Officer,</text>
+    <text x="0" y="100" font-family="'Plus Jakarta Sans', sans-serif" font-weight="500" font-size="14" fill="#718096">Deloitte</text>
+  </g>
+
+  <!-- Verification Footer -->
+  <g transform="translate(100, 740)">
+    <text x="0" y="0" font-family="'Space Mono', monospace" font-size="12" fill="#A0AEC0">Enrolment Verification Code 6a677b76a9bb5a2e1e0c7aef | User Verification Code 6a677a266908a2b6467a0da4 | Issued by <tspan font-weight="700" fill="#2D3748">Forage</tspan></text>
+  </g>
+</svg>
